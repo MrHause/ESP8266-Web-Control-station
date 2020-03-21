@@ -5,6 +5,7 @@ This project is a web application which uses WebSocket communication protocol to
 * ADC
 * LED
 * PWM
+
 User by the website can controll LED or servomotor like also check current temperature, humidity or ADC value which is controlled by potentiometer. Other used technologies:
 * Ajax to create asynchronous communicatios to prevent automatic updated values of temperature, humidity and ADC
 * WebSocket to handle connected users
