@@ -22,10 +22,8 @@ esp.osdebug(None)
 import gc
 gc.collect()
 
-ssid = 'UPC0720490'
-password = 'x74dbsjnrtnT'
-#ssid = 'FunBox2-9E65'
-#password = '4A5746C6A297576DF24453596C'
+ssid = ''
+password = ''
 station = network.WLAN(network.STA_IF)
 
 station.active(True)
