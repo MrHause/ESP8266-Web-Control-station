@@ -1,11 +1,10 @@
 # ESP8266-Web-Control-station
 This project is a web application which uses WebSocket communication protocol to communicate with ESP8266 microcontroler. This application show how to use a different modules of the ESP microcontrolers and also how to create two-way communication between server and client using WebSocet protocol. In this project has been used following modules and sensors:
-* DHT22
-* Servomotor
-* ADC
-* LED
-* PWM
-* UART
+* DHT22 (Temperature and humidity sensor)
+* GPIO (LED controll)
+* ADC (To change Servomotor angle and LED brightness)
+* PWM (Controll Servomotor, LED)
+* UART (Serial communication to show errors or server's IP)
 * I2C (OLED SSD1306)
 
 User by the website can controll LED or servomotor like also check current temperature, humidity or ADC value which is controlled by potentiometer. Other used technologies:
