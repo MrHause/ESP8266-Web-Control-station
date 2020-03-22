@@ -11,6 +11,10 @@ User by the website can controll LED or servomotor and also check current temper
 * Ajax to create asynchronous communicatios to prevent automatic updated values of temperature, humidity and ADC
 * WebSocket to handle connected users
 * Http to send requests and responses betwen client and server
+* HTML
+* CSS
+* Javascript
+* Micropython
 
 ## Getting Started
 The project consist of 3 files. First of all ESP board has to be flashed with micrypython firmware. Always first running file is boot.py. This file is responsible for connecting ESP to your WiFi. All what user have to do is add correct ssid and password in boot.py. When boot.py finished its job, firmware start executing main.py. Third file SSD1306.py is a library for OLED display so it has to be also flashed into memory.  
